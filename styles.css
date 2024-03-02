@@ -22,7 +22,8 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-#app {
+#app,
+#app2 {
   width: 90%;
   max-width: 40rem;
   margin: 3rem auto;
@@ -32,14 +33,16 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-#app h2 {
+#app h2,
+#app2 h2 {
   margin: 0 0 1rem 0;
   border-bottom: 4px solid #ccc;
   color: #4fc08d;
   font-size: 2rem;
 }
 
-#app p {
+#app p,
+#app2 p {
   padding: 0.5rem;
   border: 1px solid #4fc08d;
   border-radius: 25px;
@@ -49,7 +52,8 @@ header {
   background-color: #4fc08d;
 }
 
-#app input {
+#app input,
+#app2 input {
   border: 1px solid #ccc;
   font: inherit;
 }
